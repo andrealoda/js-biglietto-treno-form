@@ -10,17 +10,41 @@
 </head>
 
 <body>
+    <header>
+        <div class="title">
+        <h1>Calcola il prezzo del tuo biglietto</h1>
+        </div>
+    </header>
+    <main>
+        <div class="input-title">
+        <h2>Inserisci i dati richiesti</h2>
+        </div>
+        <div class="user-inputs">
+            <form action="">
+                <label for="name">Nome e Cognome</label>
+                <input type="text" name="name-input" id="name-input" placeholder="Nome e cognome"><br>
+                <label for="distance">Distanza da percorrere</label>
+                <input type="number" name="distance-input" id="distance-input" placeholder="km" required><br>
+                <label for="age">Età</label>
+                <input type="number" name="age-input" id="age-input" placeholder="et&agrave;"><br>
+                <button type="submit" id="input-confirm-button">Genera</button>
+            </form>
+        </div>
+        <hr>
+        <div class="inputs-recap">
+            <h2>Ecco il riepilogo dei tuoi dati e il prezzo del tuo biglietto</h2>
+        </div>
+        <div class="recap">
+            <ul class="recap-list">
+                <li id="name"></li>
+                <li id="distance"></li>
+                <li id="age"></li>
+                <li id="ticket-price"></li>
+            </ul>
+        </div>
 
-    <form action="">
-        <label for="name">Nome e Cognome</label>
-        <input type="text" name="name-input" id="name-input" placeholder="Nome e cognome"><br>
-        <label for="distance">Distanza da percorrere</label>
-        <input type="number" name="distance-input" id="distance-input" placeholder="km" required><br>
-        <label for="age">Età</label>
-        <input type="number" name="age-input" id="age-input" placeholder="et&agrave;"><br>
-        <button type="submit" id="input-confirm-button">Genera</button>
-    </form>
 
+    </main>
 </body>
 
 </html>
