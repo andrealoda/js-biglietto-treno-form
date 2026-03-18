@@ -18,7 +18,6 @@ formInput.addEventListener('submit', function (e) {
 
     const costPerKm = 0.21;
     let ticketPrice = distanceInputValue * costPerKm;
-
     
     if (ageInputValue < 18) {
         ticketPrice = ticketPrice * 0.8;
