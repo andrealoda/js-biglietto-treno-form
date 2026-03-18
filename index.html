@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,19 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/main.js" defer></script>
 </head>
+
 <body>
-    
-<form action="submit">
-<input type="text" name="name-input" id="name-input">
-<input type="number" name="distance-input" id="distance-input">
-<input type="number" name="age-input" id="age-input">
-<button class="confirm" id="input-confirm-button">Genera
-</button>
-</form>
+
+    <form action="">
+        <label for="name">Nome e Cognome</label>
+        <input type="text" name="name-input" id="name-input" placeholder="Nome e cognome"><br>
+        <label for="distance">Distanza da percorrere</label>
+        <input type="number" name="distance-input" id="distance-input" placeholder="km" required><br>
+        <label for="age">Età</label>
+        <input type="number" name="age-input" id="age-input" placeholder="et&agrave;"><br>
+        <button type="submit" id="input-confirm-button">Genera</button>
+    </form>
 
 </body>
+
 </html>
