@@ -19,8 +19,8 @@ formInput.addEventListener('submit', function (e) {
     e.preventDefault();
 
     const nameInputValue = nameInput.value;
-    const distanceInputValue = distanceInput.value;
-    const ageInputValue = ageInput.value;
+    const distanceInputValue = Number(distanceInput.value);
+    const ageInputValue = Number(ageInput.value);
 
     const costPerKm = 0.21;
     let ticketPrice = distanceInputValue * costPerKm;
