@@ -34,7 +34,7 @@ formInput.addEventListener('submit', function (e) {
         offerPrice = 'Over 65';
     }
     
-    nameLi.innerHTML = `Nome e Cognome del passeggero: ${nameInputValue}`;
+    nameLi.innerHTML = `Passeggero: ${nameInputValue}`;
     // distanceLi.innerHTML = `Distanza da percorrere: ${distanceInputValue}`;
     // ageLi.innerHTML = `Età del passeggero: ${ageInputValue}`;
     ticketPriceLi.innerHTML = `Prezzo del biglietto: ${ticketPrice.toFixed(2)} euro`;
