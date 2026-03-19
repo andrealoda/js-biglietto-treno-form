@@ -34,6 +34,7 @@ formInput.addEventListener('submit', function (e) {
         offerPrice = 'Over 65';
     }
     
+    
     nameLi.innerHTML = `Passeggero: ${nameInputValue}`;
     // distanceLi.innerHTML = `Distanza da percorrere: ${distanceInputValue}`;
     // ageLi.innerHTML = `Età del passeggero: ${ageInputValue}`;
