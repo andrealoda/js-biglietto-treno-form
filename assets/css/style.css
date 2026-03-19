@@ -7,4 +7,5 @@
 .container {
   background: url(../img/logo-treno.png);
   background-size: cover;
+  background-position: center;
 }
