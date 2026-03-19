@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  background: url(../img/logo-treno.png);
+  background-size: cover;
+}

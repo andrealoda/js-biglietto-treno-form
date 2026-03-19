@@ -14,8 +14,8 @@
     <script src="./assets/js/main.js" defer></script>
 </head>
 
-<body>
-    <div class="container m-5 p-5 bg-secondary">
+<body">
+    <div class="container m-5 p-5 border border-secondary-emphasis shadow rounded-5">
         <header>
             <div class="title text-center">
                 <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
@@ -27,7 +27,7 @@
             </div>
             <div class="user-inputs text-center ">
                 <form>
-                    <div class="inputs-set d-flex flex-row">
+                    <div class="inputs-set d-flex flex-row fst-italic">
                         <div class="mb-3 p-2 col-4">
                             <label for="name-input" class="form-label">Nome e Cognome</label>
                             <input type="text" class="form-control" id="name-input">
@@ -46,16 +46,18 @@
                 </form>
             </div>
             <hr>
-            <div class="inputs-recap">
-                <h2>Il tuo biglietto</h2>
-            </div>
-            <div class="recap">
-                <ul class="recap-list list-group">
-                    <li id="name" class="list-group-item"></li>
-                    <li id="distance" class="list-group-item"></li>
-                    <li id="age" class="list-group-item"></li>
-                    <li id="ticket-price" class="list-group-item"></li>
-                </ul>
+            <div class="ticket bg-alert rounded-5 mt-3">
+                <div class="inputs-recap text-center">
+                    <h2>IL TUO BIGLIETTO</h2>
+                </div>
+                <div class="recap bg-light p-3 rounded">
+                    <ul class="recap-list list-group">
+                        <li id="name" class="list-group-item"></li>
+                        <li id="distance" class="list-group-item"></li>
+                        <li id="age" class="list-group-item"></li>
+                        <li id="ticket-price" class="list-group-item"></li>
+                    </ul>
+                </div>
             </div>
 
 
