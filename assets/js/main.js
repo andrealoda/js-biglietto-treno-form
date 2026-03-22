@@ -5,6 +5,7 @@ const nameInput = document.getElementById('name-input');
 const distanceInput = document.getElementById('distance-input');
 const ageInput = document.getElementById('age-input');
 const formInput = document.querySelector('form');
+const newTicket = document.getElementById('new-ticket');
 
 const nameLi = document.getElementById('name');
 const distanceLi = document.getElementById('distance');
@@ -43,5 +44,12 @@ formInput.addEventListener('submit', function (e) {
 
     console.log(nameInputValue, distanceInputValue, ageInputValue, ticketPrice.toFixed(2));
 
+    document.querySelector('.ticket-section').classList.remove('d-none');
     formInput.reset();
 })
+
+newTicket.addEventListener('click', function(){
+    location.reload();
+});
+
+

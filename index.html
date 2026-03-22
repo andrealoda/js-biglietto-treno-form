@@ -41,12 +41,14 @@
                             <input type="number" class="form-control" id="age-input" required>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-danger" id="input-confirm-button">Genera il tuo
+                    <button type="submit" class="btn btn-danger mb-1" id="input-confirm-button">Genera il tuo
                         biglietto</button>
+                    <button type="reset" class="btn btn-secondary mb-1" id="reset-button">Reset</button>
+
                 </form>
             </div>
             <hr>
-            <div class="ticket-section bg-alert rounded-5 mt-3">
+            <div class="ticket-section bg-alert rounded-5 mt-3 d-none">
                 <div class="inputs-recap text-center mb-3">
                     <h2>IL TUO BIGLIETTO</h2>
                 </div>
@@ -54,13 +56,14 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="./assets/img/ticket-logo.png" class="img-fluid rounded-start" alt="ticket-logo">
+                                <img src="./assets/img/ticket-logo.png" class="img-fluid rounded-start"
+                                    alt="ticket-logo">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title pb-3" id="name">Passeggero: </h5>
-                                    <p class="card-text" id="ticket-price">Prezzo del biglietto</p>
-                                    <p class="card-text" id="offer-type">Offerta</p>
+                                    <h5 class="card-title pb-3" id="name"></h5>
+                                    <p class="card-text" id="ticket-price"></p>
+                                    <p class="card-text" id="offer-type"></p>
                                     <div class="reminder fst-italic text-black-50">Ricordati di convalidare il biglietto
                                         prima di salire sul treno.</div>
                                 </div>
@@ -68,6 +71,12 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-2 mx-auto">
+                <button type="button" class="btn btn-success mb-1 w-100" id="new-ticket">Genera un altro biglietto</button>
+                </div>
+
+
+
 
                 <!-- <div class="recap bg-light p-3 rounded">
                     <ul class="recap-list list-group">
@@ -76,8 +85,8 @@
                         <li id="age" class="list-group-item"></li>
                         <li id="ticket-price" class="list-group-item"></li>
                     </ul>
-                </div>
-            </div> -->
+                <!-- </div> -->
+            </div>
 
 
 
